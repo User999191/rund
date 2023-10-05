@@ -215,5 +215,13 @@ Notification:Notify(
     end
 end)
 
+tab.newToggle("Toggle", "Toggle! (prints the state)", true, function(toggleState)
+    if toggleState then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-694.5, 9.99999714, -18.4999428, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+    else
+        print("Off")
+    end
+end)
+
 local tab = DrRayLibrary.newTab("The mimic", "6684209586")
 
