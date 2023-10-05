@@ -3,6 +3,10 @@ local window = DrRayLibrary:Load("Tekknoparrot😈", "Default")
 
 local tab = DrRayLibrary.newTab("Thanatophobia", "6684209586")
 
+local tab = DrRayLibrary.newTab("The mimic", "6684209586")
+
+local tab = DrRayLibrary.newTab("Apeirophobia", "6684209586")
+
 tab.newButton("God mode", "Makes Monster not Chase able!", function()
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 45
 end)
