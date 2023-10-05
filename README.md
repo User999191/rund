@@ -156,17 +156,17 @@ local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/
 
 Notification:Notify(
     {Title = "Tekknoparrot", Description = "This was Made By Ignore Dev Upgraded ver"},
-    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "option"},
-    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
+    {OutlineColor = Color3.fromRGB(120, 120, 120),Time = 7, Type = "option"},
+    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 122, 84), Callback = function(State) print(tostring(State)) end}
 )
-wait(1)
+wait(2)
 Notification:Notify(
-    {Title = "TEXT TITLE", Description = "DESCRIPTION"},
-    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "Image"},
+    {Title = "Warning⚠️", Description = "THIS PAYMENT ONLY BC ITS BETA!"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 7, Type = "Image"},
     {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)}
 )
-wait(1)
+wait(2)
 Notification:Notify(
     {Title = "Tekknoparrot", Description = "This Was Made By Ignore Dev Upgrded ver"},
-    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
+    {OutlineColor = Color3.fromRGB(120, 120, 120),Time = 7, Type = "default"}
 )
