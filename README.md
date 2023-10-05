@@ -126,3 +126,28 @@ tab.newToggle("Cursed 15", "Toggle! (prints the state)", true, function(toggleSt
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1006.85541, 422.999939, -167.857758, 0.0803235695, 8.71632793e-08, 0.996768832, -5.89092224e-08, 1, -8.26986906e-08, -0.996768832, -5.20762207e-08, 0.0803235695)
     end
 end)
+
+tab.newToggle("Cursed 16", "Toggle! (prints the state)", true, function(toggleState)
+    if toggleState then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(587.579346, 435.779053, -593.603455, -0.851271808, 0.325468034, -0.411590606, -0.0261217132, 0.757135093, 0.652735829, 0.524074376, 0.566407084, -0.636026025)
+    else
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1006.85541, 422.999939, -167.857758, 0.0803235695, 8.71632793e-08, 0.996768832, -5.89092224e-08, 1, -8.26986906e-08, -0.996768832, -5.20762207e-08, 0.0803235695)
+    end
+end)
+
+tab.newToggle("Cursed 17", "Toggle! (prints the state)", true, function(toggleState)
+    if toggleState then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(379.071533, 425.977386, -591.297058, 0.173988715, 0.189310163, 0.966379642, -0.00409445213, 0.981478095, -0.191530719, -0.984739125, 0.0293673873, 0.171541229)
+    else
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1006.85541, 422.999939, -167.857758, 0.0803235695, 8.71632793e-08, 0.996768832, -5.89092224e-08, 1, -8.26986906e-08, -0.996768832, -5.20762207e-08, 0.0803235695)
+    end
+end)
+
+tab.newToggle("Cursed 18", "Toggle! (prints the state)", true, function(toggleState)
+    if toggleState then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(315.666382, 422.611511, -234.739868, -0.899255872, 0.258251905, -0.353050709, 0.00130759703, 0.808698654, 0.588221729, 0.437421024, 0.528500199, -0.727564692)
+    else
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1006.85541, 422.999939, -167.857758, 0.0803235695, 8.71632793e-08, 0.996768832, -5.89092224e-08, 1, -8.26986906e-08, -0.996768832, -5.20762207e-08, 0.0803235695)
+    end
+end)
+
