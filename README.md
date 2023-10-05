@@ -223,6 +223,22 @@ tab.newToggle("Inst Tp Chp3", "Toggle! (prints the state)", true, function(toggl
     end
 end)
 
+tab.newToggle("Crowbar", "Go to crowbar", true, function(toggleState)
+    if toggleState then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-239.393646, 11.4257832, 250.865448, 0.0159451216, -0.242199078, 0.970095515, -0.00477852719, 0.970189333, 0.242301047, -0.999861479, -0.00849914737, 0.0143124312)
+    else
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
+    end
+end)
+
+tab.newToggle("Quest 1", "Part 2 only", true, function(toggleState)
+    if toggleState then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-469.312347, 23.1407051, -6.07693529, -0.134722352, -0.60143888, 0.787477732, -0.00658990955, 0.795249164, 0.606246948, -0.990861475, 0.076485604, -0.111101262)
+    else
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
+    end
+end)
+
 local tab = DrRayLibrary.newTab("Thanatophobia Other  *Less bug that play*", "6684209586")
 
 tab.newToggle("Kitana 1", "Makes get kitana but u need reset or press reset it", true, function(toggleState)
@@ -233,10 +249,11 @@ tab.newToggle("Kitana 1", "Makes get kitana but u need reset or press reset it",
     end
 end)
 
-tab.newToggle("Toggle", "Makes Get kitana But U need stay or js reset", true, function(toggleState)
+tab.newToggle("Kitana 2", "Makes Get kitana But U need stay or js reset", true, function(toggleState)
     if toggleState then
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(154.116943, 14.9999962, 73.3758926, 0.999956071, 6.76263667e-09, 0.00937190931, -7.68188269e-09, 1, 9.80492061e-08, -0.00937190931, -9.81168924e-08, 0.999956071)
     else
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
     end
 end)
+
