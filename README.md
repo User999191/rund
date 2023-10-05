@@ -1,10 +1,6 @@
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 local window = DrRayLibrary:Load("Tekknoparrot😈", "Default")
 
-local tab = DrRayLibrary.newTab("Apeirophobia", "6684209586")
-
-local tab = DrRayLibrary.newTab("The mimic", "6684209586")
-
 local tab = DrRayLibrary.newTab("Thanatophobia", "6684209586")
 
 tab.newButton("God mode", "Makes Monster not Chase able!", function()
@@ -171,6 +167,11 @@ Notification:Notify(
 )
 wait(3)
 Notification:Notify(
-    {Title = "Tekknoparrot", Description = "This Was Made By Ignore Dev Upgrded ver"},
+    {Title = "Tekknoparrot", Description = "Dont Beg Bitch :) Pay 350R each gui :)"},
     {OutlineColor = Color3.fromRGB(120, 120, 120),Time = 8, Type = "default"}
 )
+
+
+
+local tab = DrRayLibrary.newTab("The mimic", "6684209586")
+
