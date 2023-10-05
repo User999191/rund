@@ -171,7 +171,49 @@ Notification:Notify(
     {OutlineColor = Color3.fromRGB(0, 0, 204),Time = 8, Type = "default"}
 )
 
+tab.newToggle("Checking", "Checking the all stats", true, function(toggleState)
+    if toggleState then
+        local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
 
+Notification:Notify(
+    {Title = "Next Rank promoted", Description = "3'475'999km more Till Promoted XXXVI"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 9, Type = "option"},
+    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
+)
+wait(1)
+Notification:Notify(
+    {Title = "Total using script", Description = "-99999"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 9, Type = "image"},
+    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)}
+)
+wait(1)
+Notification:Notify(
+    {Title = "Total Day", Description = "-999 Day"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 8, Type = "default"}
+)
+    else
+        local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+
+Notification:Notify(
+    {Title = "Total Durabilty play", Description = "-9999 Day"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 8, Type = "option"},
+    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
+)
+wait(1)
+Notification:Notify(
+    {Title = "Total Km *It not change so its Modded", Description = "2'837'281km  ur rank is XXXI "},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 10, Type = "image"},
+    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)}
+)
+wait(1)
+Notification:Notify(
+    {Title = "TEXT TITLE", Description = "DESCRIPTION"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
+)
+    end
+end)
 
 local tab = DrRayLibrary.newTab("The mimic", "6684209586")
 
