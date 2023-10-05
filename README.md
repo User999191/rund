@@ -215,13 +215,28 @@ Notification:Notify(
     end
 end)
 
-tab.newToggle("Toggle", "Toggle! (prints the state)", true, function(toggleState)
+tab.newToggle("Inst Tp Chp3", "Toggle! (prints the state)", true, function(toggleState)
     if toggleState then
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-694.5, 9.99999714, -18.4999428, -1, 0, 0, 0, 1, 0, 0, 0, -1)
     else
-        print("Off")
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4.70974493, 24.7999954, -377.258636, 1, 0, 0, 0, 1, 0, 0, 0, 1)
     end
 end)
 
-local tab = DrRayLibrary.newTab("The mimic", "6684209586")
+local tab = DrRayLibrary.newTab("Thanatophobia Other  *Less bug that play*", "6684209586")
 
+tab.newToggle("Kitana 1", "Makes get kitana but u need reset or press reset it", true, function(toggleState)
+    if toggleState then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(159.986023, 15.6947994, 2.50653768, 0.290464044, 7.53330198e-09, 0.956885934, 8.83158346e-09, 1, -1.05535669e-08, -0.956885934, 1.15162493e-08, 0.290464044)
+    else
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
+    end
+end)
+
+tab.newToggle("Toggle", "Makes Get kitana But U need stay or js reset", true, function(toggleState)
+    if toggleState then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(154.116943, 14.9999962, 73.3758926, 0.999956071, 6.76263667e-09, 0.00937190931, -7.68188269e-09, 1, 9.80492061e-08, -0.00937190931, -9.81168924e-08, 0.999956071)
+    else
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
+    end
+end)
