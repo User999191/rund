@@ -81,7 +81,47 @@ end)
 
 tab.newToggle("Cursed 10", "Toggle! (prints the state)", true, function(toggleState)
     if toggleState then
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(507.304443, 447.388641, -173.309128, 0.58545655, -0.637134135, 0.501299024, 2.86381055e-05, 0.618366659, 0.785889745, -0.810703754, -0.460089952, 0.362045079)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(506.963715, 422.999939, -176.065628, -0.9992764, 5.42472272e-08, -0.0380356386, 5.47911334e-08, 1, -1.32575808e-08, 0.0380356386, -1.53320041e-08, -0.9992764)
+    else
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1006.85541, 422.999939, -167.857758, 0.0803235695, 8.71632793e-08, 0.996768832, -5.89092224e-08, 1, -8.26986906e-08, -0.996768832, -5.20762207e-08, 0.0803235695)
+    end
+end)
+
+tab.newToggle("Cursed 11", "Toggle! (prints the state)", true, function(toggleState)
+    if toggleState then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(501.956573, 422.999908, 169.769547, 0.877067089, 6.60658799e-08, -0.480367959, -6.6518858e-08, 1, 1.60801328e-08, 0.480367959, 1.78501711e-08, 0.877067089)
+    else
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1006.85541, 422.999939, -167.857758, 0.0803235695, 8.71632793e-08, 0.996768832, -5.89092224e-08, 1, -8.26986906e-08, -0.996768832, -5.20762207e-08, 0.0803235695)
+    end
+end)
+
+tab.newToggle("Cursed 12", "Toggle! (prints the state)", true, function(toggleState)
+    if toggleState then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(605.28363, 426.193848, 372.577576, -0.253647238, 0.0554697439, -0.965705037, -0.0146028502, 0.998021066, 0.0611614734, 0.96718657, 0.0296154842, -0.25233525)
+    else
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1006.85541, 422.999939, -167.857758, 0.0803235695, 8.71632793e-08, 0.996768832, -5.89092224e-08, 1, -8.26986906e-08, -0.996768832, -5.20762207e-08, 0.0803235695)
+    end
+end)
+
+tab.newToggle("Cursed 13", "Toggle! (prints the state)", true, function(toggleState)
+    if toggleState then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(635.458191, 422.999878, 375.844574, 0.00545326155, 6.75950176e-08, -0.999985158, 1.70828454e-08, 1, 6.76891787e-08, 0.999985158, -1.74517183e-08, 0.00545326155)
+    else
+       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1006.85541, 422.999939, -167.857758, 0.0803235695, 8.71632793e-08, 0.996768832, -5.89092224e-08, 1, -8.26986906e-08, -0.996768832, -5.20762207e-08, 0.0803235695) 
+    end
+end)
+
+tab.newToggle("Cursed 14", "Toggle! (prints the state)", true, function(toggleState)
+    if toggleState then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(662.5354, 424.05838, 156.033447, 0.846205056, 0.227755904, -0.481730461, 0.00411443133, 0.901231706, 0.433318019, 0.532841504, -0.368657947, 0.761689723)
+    else
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1006.85541, 422.999939, -167.857758, 0.0803235695, 8.71632793e-08, 0.996768832, -5.89092224e-08, 1, -8.26986906e-08, -0.996768832, -5.20762207e-08, 0.0803235695)
+    end
+end)
+
+tab.newToggle("Cursed 15", "Toggle! (prints the state)", true, function(toggleState)
+    if toggleState then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(790.263672, 424.012787, -243.391403, -0.696486235, -0.197465748, 0.689865351, -0.0085885739, 0.963615954, 0.267152607, -0.717518747, 0.180143148, -0.672841191)
     else
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1006.85541, 422.999939, -167.857758, 0.0803235695, 8.71632793e-08, 0.996768832, -5.89092224e-08, 1, -8.26986906e-08, -0.996768832, -5.20762207e-08, 0.0803235695)
     end
