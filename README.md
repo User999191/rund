@@ -181,13 +181,13 @@ Notification:Notify(
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 9, Type = "option"},
     {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
 )
-wait(1)
+wait(5)
 Notification:Notify(
     {Title = "Total using script", Description = "-99999"},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 9, Type = "image"},
     {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)}
 )
-wait(1)
+wait(4)
 Notification:Notify(
     {Title = "Total Day", Description = "-999 Day"},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 8, Type = "default"}
@@ -201,16 +201,16 @@ Notification:Notify(
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 8, Type = "option"},
     {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
 )
-wait(1)
+wait(4)
 Notification:Notify(
     {Title = "Total Km *It not change so its Modded", Description = "2'837'281km  ur rank is XXXI "},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 10, Type = "image"},
     {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)}
 )
-wait(1)
+wait(4)
 Notification:Notify(
-    {Title = "TEXT TITLE", Description = "DESCRIPTION"},
-    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
+    {Title = "Aura Strength", Description = "19.2De"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 9, Type = "default"}
 )
     end
 end)
