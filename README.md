@@ -97,7 +97,7 @@ end)
 
 tab.newToggle("Cursed 12", "Toggle! (prints the state)", true, function(toggleState)
     if toggleState then
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(605.28363, 426.193848, 372.577576, -0.253647238, 0.0554697439, -0.965705037, -0.0146028502, 0.998021066, 0.0611614734, 0.96718657, 0.0296154842, -0.25233525)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(654.754272, 421.901031, -163.999802, -0.134549305, -0.391970158, 0.910085678, 0.0111749265, 0.917778432, 0.396935552, -0.990843892, 0.0635775402, -0.119106211)
     else
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1006.85541, 422.999939, -167.857758, 0.0803235695, 8.71632793e-08, 0.996768832, -5.89092224e-08, 1, -8.26986906e-08, -0.996768832, -5.20762207e-08, 0.0803235695)
     end
