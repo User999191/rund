@@ -257,3 +257,34 @@ tab.newToggle("Kitana 2", "Makes Get kitana But U need stay or js reset", true, 
     end
 end)
 
+tab.newToggle("Light 1", "Toggle! (prints the state)", true, function(toggleState)
+    if toggleState then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(582.250244, 16.2357693, 616.949585, 0.20016773, 9.01618158e-09, 0.97976166, 1.0354843e-07, 1, -3.03576222e-08, -0.97976166, 1.07529395e-07, 0.20016773)
+    else
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
+    end
+end)
+
+tab.newToggle("Light 2", "Toggle! (prints the state)", true, function(toggleState)
+    if toggleState then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(558.701111, 15.9024734, 682.988403, -0.272285134, -0.304623187, 0.912724257, 0.0247319248, 0.946035147, 0.323118836, -0.961898744, 0.110553883, -0.250057399)
+    else
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
+    end
+end)
+
+tab.newToggle("Light 3", "Toggle! (prints the state)", true, function(toggleState)
+    if toggleState then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(415.331482, 21.6366043, 506.300629, 0.481742293, -0.185894385, 0.856368899, -0.00437348709, 0.976718724, 0.214479327, -0.876302004, -0.107069083, 0.469713718)
+    else
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
+    end
+end)
+
+tab.newToggle("Light 4", "Toggle! (prints the state)", true, function(toggleState)
+    if toggleState then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(560.350647, 15.4098949, 679.464478, -0.990097523, 1.08989431e-08, 0.140381157, 1.9663748e-08, 1, 6.10486808e-08, -0.140381157, 6.32045669e-08, -0.990097523)
+    else
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
+    end
+end)
