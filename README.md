@@ -1,11 +1,11 @@
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 local window = DrRayLibrary:Load("Tekknoparrot😈", "Default")
 
-local tab = DrRayLibrary.newTab("Thanatophobia", "6684209586")
+local tab = DrRayLibrary.newTab("Apeirophobia", "6684209586")
 
 local tab = DrRayLibrary.newTab("The mimic", "6684209586")
 
-local tab = DrRayLibrary.newTab("Apeirophobia", "6684209586")
+local tab = DrRayLibrary.newTab("Thanatophobia", "6684209586")
 
 tab.newButton("God mode", "Makes Monster not Chase able!", function()
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 45
@@ -160,17 +160,17 @@ local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/
 
 Notification:Notify(
     {Title = "Tekknoparrot", Description = "This was Made By Ignore Dev Upgraded ver"},
-    {OutlineColor = Color3.fromRGB(120, 120, 120),Time = 7, Type = "option"},
+    {OutlineColor = Color3.fromRGB(120, 120, 120),Time = 8, Type = "option"},
     {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 122, 84), Callback = function(State) print(tostring(State)) end}
 )
-wait(2)
+wait(3)
 Notification:Notify(
     {Title = "Warning⚠️", Description = "THIS PAYMENT ONLY BC ITS BETA!"},
-    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 7, Type = "Image"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 8, Type = "Image"},
     {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)}
 )
-wait(2)
+wait(3)
 Notification:Notify(
     {Title = "Tekknoparrot", Description = "This Was Made By Ignore Dev Upgrded ver"},
-    {OutlineColor = Color3.fromRGB(120, 120, 120),Time = 7, Type = "default"}
+    {OutlineColor = Color3.fromRGB(120, 120, 120),Time = 8, Type = "default"}
 )
