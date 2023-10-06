@@ -4,7 +4,7 @@ local window = DrRayLibrary:Load("Tekknoparrot😈", "Default")
 local tab = DrRayLibrary.newTab("Thanatophobia", "6684209586")
 
 tab.newButton("God mode", "Makes Monster not Chase able!", function()
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 45
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 55
 end)
 
 tab.newToggle("Cursed 1", "Toggle! (prints the state)", true, function(toggleState)
