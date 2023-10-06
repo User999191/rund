@@ -288,3 +288,11 @@ tab.newToggle("Light 4", "Toggle! (prints the state)", true, function(toggleStat
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
     end
 end)
+
+tab.newToggle("exit chp 3 only", "Toggle! (prints the state)", true, function(toggleState)
+    if toggleState then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-26.2278881, 10.9999981, -177.41774, 0.0233756416, 6.62177158e-08, -0.999726772, -4.85946927e-09, 1, 6.61221904e-08, 0.999726772, 3.31249317e-09, 0.0233756416)
+    else
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
+    end
+end)
