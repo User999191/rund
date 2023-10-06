@@ -1,4 +1,4 @@
-local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))() 
 local window = DrRayLibrary:Load("Tekknoparrot😈", "Default")
 
 local tab = DrRayLibrary.newTab("Thanatophobia", "6684209586")
