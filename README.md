@@ -3,13 +3,15 @@ local window = DrRayLibrary:Load("Tekknoparrot😈", "Default")
 
 local tab = DrRayLibrary.newTab("Thanatophobia", "6684209586")
 
-tab.newButton("God mode", "Makes Monster not Chase able!", function()
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 55
+tab.newButton("God mode", "Makes Monster not Chase able! (fix speed)", function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 60
 end)
 
 tab.newToggle("Cursed 1", "Toggle! (prints the state)", true, function(toggleState)
     if toggleState then
+    while wait(4) do
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(936.192566, 434.069214, 24.0276432, -0.999933243, -0.00525336247, 0.0102898302, -0.00736445468, 0.976069868, -0.217332467, -0.00890186708, -0.217393741, -0.976043403)
+        end
     else
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1006.85541, 422.999939, -167.857758, 0.0803235695, 8.71632793e-08, 0.996768832, -5.89092224e-08, 1, -8.26986906e-08, -0.996768832, -5.20762207e-08, 0.0803235695)
     end
